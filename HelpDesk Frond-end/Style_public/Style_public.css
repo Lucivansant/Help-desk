@@ -1,0 +1,62 @@
+header {
+    background-color: #12122b;
+    height: 50px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+#logo {
+    font-size: 20px;
+    line-height: 50px;
+    color: white;
+}
+
+#img {
+    width: 20px;
+}
+
+/*===============================================*/
+
+
+#card-login {
+    margin: 100px auto;
+    border: solid 1px rgba(0, 0, 0, 0.363);
+    width: 400px;
+    border-radius: 10px;
+}
+@media(max-width: 750px){
+        #card-login {
+        margin: 100px auto;
+        border: solid 1px rgba(0, 0, 0, 0.363);
+        width: 85%;
+        border-radius: 10px;
+    }
+}
+
+#header-card-login,
+#text-header-login {
+    border-radius: 10px 10px 0px 0px;
+    background-color: #12122b;
+    height: 40px;
+    color: white;
+    line-height: 40px;
+    padding: 0px 10px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+#body-card-login {
+    padding: 15px;
+}
+
+#input {
+    margin-bottom: 15px;
+    border: solid 1px rgba(0, 0, 0, 0.438);
+}
+
+a {
+    text-decoration: none;
+}
+
+/*===============================================*/
+#feedback {
+    margin-top: 15px;
+}
